@@ -49,7 +49,7 @@ function App() {
       const diff = target - now;
       
       if (diff <= 0) {
-        setCountdown('Ramsey likes Wambo 💕');
+        setCountdown('Apology');
         setCanAccess(true);
       } else {
         const hours = Math.floor(diff / (1000 * 60 * 60));
@@ -106,7 +106,7 @@ function App() {
 
       {!isLoggedIn ? (
         <div className="glass-card show">
-          <h1 className="title bounce">Enter to See My Chwest 💕</h1>
+          <h1 className="title bounce">Sorry</h1>
           <form onSubmit={handleLogin} className="login-form">
             <input
               type="text"
