@@ -38,7 +38,7 @@ function App() {
     const timer = setInterval(() => {
       const now = new Date();
       const target = new Date();
-      target.setUTCHours(22, 0, 0, 0); // 1 AM EAT = 22:00 UTC
+      target.setUTCHours(22, 10, 0, 0); // 1 AM EAT = 22:00 UTC
       
       if (now.getUTCHours() >= 22 || now.getUTCHours() < 22) {
         if (now >= target) {
@@ -142,7 +142,7 @@ function App() {
           <h1 className="title bounce">I'm So Sorry 💕</h1>
           <p className="message">
             Dear Wambo we just met, but your a christmas miracle I'm sorry again
-            ✨ Leaving you on seen wasn't intentional... I was probably just
+            ✨for Leaving you on seen wasn't intentional... I was probably just
             staring at my screen, waah io ni uongo I didnt know how to reply to
             you crying thought I did sth wrong , wait I now know I did sth wrong
             😔 wanna be honest, I was just trying make you laugh 😂 trying to
@@ -153,7 +153,7 @@ function App() {
             mum 🥺 🥺 also wdym when you said satisfy me 😅😅
           </p>
           <button className="apology-btn bounce-hover">
-            Can We Start Over? 🥺
+            happy now 🥺
           </button>
         </div>
       )}
