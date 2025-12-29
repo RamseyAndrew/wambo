@@ -38,7 +38,7 @@ function App() {
     const timer = setInterval(() => {
       const now = new Date();
       const target = new Date();
-      target.setUTCHours(22, 10, 0, 0); // 1 AM EAT = 22:00 UTC
+      target.setUTCHours(22, 15, 0, 0); // 1 AM EAT = 22:00 UTC
       
       if (now.getUTCHours() >= 22 || now.getUTCHours() < 22) {
         if (now >= target) {
