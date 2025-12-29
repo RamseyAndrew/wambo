@@ -88,7 +88,7 @@ function App() {
               animationDelay: `${heart.delay}s`,
             }}
           >
-            💖
+            😁😊
           </div>
         ))}
       </div>
@@ -152,9 +152,7 @@ function App() {
             me too! But please know it was never my intention to hurt you Sawa
             mum 🥺 🥺 also wdym when you said satisfy me 😅😅
           </p>
-          <button className="apology-btn bounce-hover">
-            happy now 🥺
-          </button>
+          <button className="apology-btn bounce-hover">happy now 🥺</button>
         </div>
       )}
     </div>
